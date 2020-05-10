@@ -1,0 +1,95 @@
+#content {
+	padding: 100px 10px 10px;
+}
+
+#content h2 {
+	font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 10px;
+	font-variant: small-caps;
+	color: #003060;
+}
+
+.placesList li {
+	margin-bottom: 10px;
+}
+
+.placesList li h3 {
+	font-weight: bold;
+	color: #621E55;
+	font-size: 20px;
+}
+
+.placesList li div + div {
+	margin-top: 10px;
+}
+
+.placesList li .desc {
+	font-weight: lighter;
+	color: black;
+	font-size: 16px;
+}
+
+.placesList .phones {
+	font-weight: bold;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.placesList .phones .glue {
+	flex-grow: 1;
+}
+
+.social {
+	content: '';
+	padding-left: 16px;
+	margin-right: 4px;
+}
+
+.social.fb {
+	background: url(/img/icon-social-fb.png) no-repeat;
+	background-size: contain;
+}
+
+.social.ig {
+	background: url(/img/icon-social-ig.png) no-repeat;
+	background-size: contain;
+}
+
+.social.www {
+	background: url(/img/icon-social-www.png) no-repeat;
+	background-size: contain;
+}
+
+.placesList .phones .phone {
+	padding-right: 10px;
+}
+
+.placesList .phones .phone::before {
+	content: '';
+	padding-left: 32px;
+}
+
+.placesList .phones .phone.land::before {
+	background: url(/img/icon-phone.png) no-repeat;
+	background-size: contain;
+}
+
+.placesList .phones .phone.mobile::before {
+	background: url(/img/icon-mobile.png) no-repeat;
+	background-size: contain;
+}
+
+.placesList .phones .phone.whatsapp::before {
+	background: url(/img/icon-whatsapp.png) no-repeat;
+	background-size: contain;
+}
+
+.placesList .delivery {
+	text-align: right;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 14px;
+	margin-bottom: 8px;
+}

@@ -1,0 +1,52 @@
+#navToggle[type=checkbox] {
+	display: none;
+}
+
+#navToggle ~ label {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	padding-right: 10px;
+}
+
+#navToggle[type=checkbox]:checked ~ label ~ #navMenu {
+	display: block !important;
+}
+
+#navMenu {
+	display: none;
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	background-color: white;
+	box-shadow: #D0D0D0 -2px 8px 20px 0;
+
+	box-sizing: border-box;
+	/*padding: 10px 20px;*/
+	overflow: scroll;
+	height: 100vh;
+}
+
+#navMenu h3 {
+	text-align: right;
+	font-size: 20px;
+}
+
+#navMenu li {
+	margin: 20px;
+	text-align: right;
+}
+
+.headerInner .locationName {
+	flex-grow: 1;
+	font-weight: bold;
+	font-size: 24px;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.headerInner .locationName a {
+	color: white;
+}

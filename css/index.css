@@ -1,0 +1,40 @@
+#intro {
+	display: flex;
+	flex-direction: column;
+
+	font-size: 20px;
+	padding: 20px;
+	text-align: justify;
+}
+
+#intro img {
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+#intro p + p {
+	padding-top: 15px;
+}
+#content {
+	text-align: center;
+}
+
+#content h1 {
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+#content li {
+	font-size: 30px;
+}
+
+footer {
+	width: 100%;
+	height: 20px;
+	padding-top: 15px;
+}
+
+.privacy {
+	padding-top: 10px;
+}
